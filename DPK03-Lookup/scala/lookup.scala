@@ -6,7 +6,6 @@ object LookupApp extends App {
     Person(2, "Alice", "alice@alice.com")
   )
 
-  // Cria mapas para lookup rápido
   val idMap: Map[Int, Person] = people.map(p => p.id -> p).toMap
   val nameMap: Map[String, Person] = people.map(p => p.name -> p).toMap
   val emailMap: Map[String, Person] = people.map(p => p.email -> p).toMap
