@@ -1,7 +1,11 @@
 def reverseString(s: String): String = {
-    s.reverse
+    for (char <- s) {
+        println(char)
+    }
+    s
 }
 
-def main(args: Array[String]): Unit= {
-    println(reverseString("Hello"))
+def main(args: Array[String]): Unit = {
+    val result = reverseString("Hello")
+    println(result)
 }
