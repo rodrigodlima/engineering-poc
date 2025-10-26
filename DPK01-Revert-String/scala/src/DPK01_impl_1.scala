@@ -7,6 +7,5 @@ def reverseString(s: String): String = {
 }
 
 def main(args: Array[String]): Unit = {
-    val result = reverseString("Hello")
-    println(result)
+    println(reverseString("Hello"))
 }
