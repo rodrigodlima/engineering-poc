@@ -8,6 +8,6 @@ def reverseString2(s: String): String = {
     reversed
 }
 
-def main(args: Array[String]): Unit = {
+@main def runImpl2(): Unit = {
     println(reverseString2("Hello"))
 }
