@@ -12,4 +12,4 @@ def revert_list(lst):
 
 
 values = [1, 2, 3, 4, 5]
-print(revert_list(values)) 
+print(revert_list(values))

@@ -5,5 +5,6 @@ def revert_list(list):
         list_reverse.append(list[len_list - 1 - i])
     return list_reverse
 
+
 values = [1, 2, 3, 4, 5]
-print(revert_list(values)) 
+print(revert_list(values))
