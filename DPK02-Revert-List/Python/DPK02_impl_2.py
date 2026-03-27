@@ -6,5 +6,5 @@ def revert_list(list):
     return list_reverse
 
 
-values = [1, 2, 3, 4, 5]
+values = list(range(1, 10000001))
 print(revert_list(values))
