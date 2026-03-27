@@ -3,5 +3,5 @@ def reversed_list(lst):
     return result
 
 
-values = [1, 2, 3, 4, 5]
+values = list(range(1, 10000001))
 print(reversed_list(values))
