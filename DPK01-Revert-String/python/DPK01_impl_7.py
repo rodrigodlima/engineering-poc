@@ -1,8 +1,8 @@
-def revertString(word):
+def revert_string(word):
     result = ""
     for i in word:
         result = i + result
     return result
 
 
-print(revertString("Hello"))
+print(revert_string("Hello"))
